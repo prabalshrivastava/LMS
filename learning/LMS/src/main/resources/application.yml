@@ -1,0 +1,16 @@
+#server Configuration
+server:
+  port: 8080
+
+
+#view Resolver configuration
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+#Profile Configuration
+  profiles:
+    active: dev
+
